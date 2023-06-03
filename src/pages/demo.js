@@ -183,7 +183,3 @@ export default function MyComponent() {
     </>
   )
 }
-
-
-
-
