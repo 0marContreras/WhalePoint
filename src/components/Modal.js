@@ -179,7 +179,7 @@ const Modal = ({isvisible, onClose}) => {
                        <h1 className=' mb-40 text-4xl text-center'>Thanks for your contribution❤️</h1>
                         <br/>
                         <div className='flex justify-center items-center'>
-                          <img src='https://i.pinimg.com/originals/2b/52/af/2b52afcdaffa6b3be68b4935b6e15b9d.gif'/>
+                          <Image className='w-300px h-200px' src='https://i.pinimg.com/originals/2b/52/af/2b52afcdaffa6b3be68b4935b6e15b9d.gif' width={100} height={100} alt='gif'/>
                         </div>
                         <br/>
                         <div className='flex justify-center items-center'>

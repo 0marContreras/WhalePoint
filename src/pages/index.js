@@ -18,12 +18,11 @@ export default function MyComponent() {
                 Click here to
                 <svg className="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
             </p>
-            <button onClick={() =>{setMod(true)}} className="bg-black inline-flex items-center justify-center px-8 py-4 font-medium text-center text-white rounded-lg border-2 border-black focus:ring-4 focus:ring-white focus:ring-white hover:border-white hover:shadow-white">
+            <button onClick={() =>{setMod(true)}} className="bg-black inline-flex items-center justify-center px-8 py-4 font-medium text-center text-white rounded-lg border-2 border-black focus:ring-4 focus:ring-white hover:border-white hover:shadow-white">
               Donate
-
-
           </button>
             <br/>
+            
             <div className="mb-1 ml-5 text-base font-medium text-white ">Monthly goal</div>
                         <div className="w-full ml-4 bg-black rounded-full h-2.5 mb-4 ">
                           <div className="bg-blue-600 h-2.5 rounded-full w-2/5"></div>
@@ -37,12 +36,6 @@ export default function MyComponent() {
         </div>                
     </div>
 </section>
-
-
-
-
-
-
 
 <br/>
 
@@ -58,26 +51,26 @@ export default function MyComponent() {
       
             <div>
                 <Image  width={5180 /10} height={100} className="h-auto max-w-xs rounded-lg hover:drop-shadow-2xl" src={require('/public/image/NFT2.jpeg')}
-                alt=""/>
+                alt="ima"/>
                 <h3 className="text-center mb-2 text-2xl font-bold tracking-tight  text-white ">50 SOL Unic!</h3>
             </div>
             
       
       
             <div>
-                <Image  width={5180 /10} height={100} className="h-auto max-w-sm rounded-lg hover:drop-shadow-2xl" src={require('/public/image/NFT1.jpeg') }/>
+                <Image  width={5180 /10} height={100} className="h-auto max-w-sm rounded-lg hover:drop-shadow-2xl" src={require('/public/image/NFT1.jpeg') } alt="ima"/>
                 <h3 className="text-center mb-2 text-2xl font-bold tracking-tight  text-white">100 SOL Unic!</h3>
             </div>          
       
             <div>
-                <Image  width={5180 /10} height={100} className="h-auto max-w-xs rounded-lg hover:drop-shadow-2xl" src={require('/public/image/NFT3.jpeg')} alt=""/>
+                <Image  width={5180 /10} height={100} className="h-auto max-w-xs rounded-lg hover:drop-shadow-2xl" src={require('/public/image/NFT3.jpeg')} alt="ima"/>
                 <h3 className="text-center mb-2 text-2xl font-bold tracking-tight  text-white">25 SOL Unic!</h3>
             </div> 
     </div>
   <br/>
 
   <a href="#" className="ml-4 mr-4  p-10 md:space-y-0  md:flex md:items-center rounded-xl hover:drop-shadow-2xl">
-      <Image width={5180 /10} height={100} className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-96 md:rounded-none md:rounded-l-lg" src={require('/public/image/ballena.jpeg')} alt=""/>
+      <Image width={5180/10} height={100} className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-96 md:rounded-none md:rounded-l-lg" src={require('/public/image/ballena.jpeg')} alt="ima"/>
       <div className="flex flex-col justify-between py-20 pl-10 bg-gray-950 leading-normal ">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">Conservation of endangered species</h5>
           <p className="mb-3 font-normal text-white">Many whale species are in danger of extinction due to indiscriminate hunting, ocean pollution, vessel collisions, and other threats. Fundraising is directed towards conservation programs that help protect these species and preserve their habitats.</p>
@@ -91,11 +84,11 @@ export default function MyComponent() {
           
           <p className="mb-3 font-normal text-white">To effectively protect whales, the implementation of conservation measures is required, such as the creation of marine protected areas, regulation of the fishing industry, and control of marine pollution. Fundraising plays a crucial role in supporting the implementation and enforcement of these measures, thereby ensuring a safe and healthy environment for whales.</p>
       </div>   
-          <Image  width={5180 /10} height={100} className="object-cover w-full h-96 md:h-auto md:w-96 md:rounded-r-lg" src={require('/public/image/ballena2.jpeg')} alt=""/>
+          <Image  width={5180 /10} height={100} className="object-cover w-full h-96 md:h-auto md:w-96 md:rounded-r-lg" src={require('/public/image/ballena2.jpeg')} alt="ima"/>
     </a>
     <br/>
     <a href="#" className="ml-4 mr-4  p-10 md:space-y-0  md:flex md:items-center rounded-xl hover:drop-shadow-2xl">
-      <Image  width={5180 /10} height={100} className="object-cover w-full h-[15.5rem] md:w-96 md:rounded-l-lg" src={require('/public/image/ballena3.jpg')}/>
+      <Image  width={5180 /10} height={100} className="object-cover w-full h-[15.5rem] md:w-96 md:rounded-l-lg" src={require('/public/image/ballena3.jpg')} alt="ima"/>
       <div className="flex flex-col justify-between py-20 pl-10 md:py-16 bg-gray-950 leading-normal">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-white">Support for local communities</h5>
           <p className="mb-3 font-normal text-white">Many coastal communities in Mexico depend economically on whale-related tourism. The funds raised are used to support these communities by providing sustainable income-generating alternatives, reducing the pressure on natural resources, and helping foster a balanced relationship between the communities and the whales.</p>
