@@ -2,3 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background-color: #A4CAFE; /* Cambia el color de fondo aquí */
+  }
