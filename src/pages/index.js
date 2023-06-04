@@ -40,7 +40,7 @@ export default function MyComponent() {
 <br/>
 
 
-<h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-white">NFT's for the best partners</h5>
+<h5 className="text-center mb-2 text-2xl font-bold tracking-tight text-white">NFTs for the best partners</h5>
 
 <br/>
 
