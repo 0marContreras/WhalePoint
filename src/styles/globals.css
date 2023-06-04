@@ -8,11 +8,9 @@
     margin: 0;
   }
 }
-body {
-<<<<<<< HEAD
-    background-color: #76A9FA; /* Cambia el color de fondo aquí */
+
+
+body{
+  background: rgb(0,0,37);
+  background: linear-gradient(3deg, rgba(0,0,37,1) 0%, rgba(51,77,155,1) 100%);
 }
-=======
-  background-color: #A4CAFE; /* Cambia el color de fondo aquí */
-}
->>>>>>> 0d8fa1ab7ba8ceb77a4054148c1231c2e02b1885
