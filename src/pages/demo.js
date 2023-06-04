@@ -162,29 +162,73 @@ export default function MyComponent() {
             <a href="#" class="bg-black inline-flex items-center justify-center px-8 py-4 font-medium text-center text-white rounded-lg border-2 border-black focus:ring-4 focus:ring-white focus:ring-white hover:border-white hover:shadow-white">
               Donate
           </a>
-
-
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
             <img src="/ballenas.png" alt="mockup"/>
         </div>                
     </div>
 </section>
+<br/>
+
+<h5 class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white white: text-white">NFT's for the best partner</h5>
+
+<br/>
+<div class="bg-white">
   <br/>
-  <a href="#" class="ml-4 mr-4 flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-      <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-96 md:rounded-none md:rounded-l-lg" src="/image/ballena.jpg" alt=""/>
+    <div class=" grid grid-cols-3 gap-2 place-items-center">
+      
+      <br/>
+            <div>
+                <img class="h-auto max-w-md rounded-lg" src="/image/NFT1.jpeg" alt=""/>
+                <h3 class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white white: text-black">+100$ unic</h3>
+            </div>
+            
+      
+      <br/>
+            <div>
+                <img class="h-auto max-w-sm rounded-lg" src="/image/NFT2.jpeg" alt=""/>
+                <h3 class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white white: text-black">+50$ unic</h3>
+            </div>          
+      <br/>
+            <div>
+                <img class="h-auto max-w-xs rounded-lg" src="/image/NFT3.jpeg" alt=""/>
+                <h3 class="text-center mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white white: text-black">+25$ unic</h3>
+            </div>
+            
+      <br/>
+    </div>
+  </div>
+  <br/>
+  <a href="#" class="ml-4 mr-4 bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-700 p-10 md:space-y-0 md:space-x-8 md:flex md:items-center rounded-xl">
+      <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-96 md:rounded-none md:rounded-l-lg" src="/image/ballena.jpeg" alt=""/>
       <div class="flex flex-col justify-between p-4 leading-normal">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">¿What is our objetive?</h5>
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Conservation of endangered species:</h5>
           <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Many whale species are in danger of extinction due to indiscriminate hunting, ocean pollution, vessel collisions, and other threats. Fundraising is directed towards conservation programs that help protect these species and preserve their habitats.</p>
       </div>
     </a>
     <br/>
-
-
+    <a href="#" class="ml-4 mr-4 bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-700 p-10 md:space-y-0 md:space-x-8 md:flex md:items-center rounded-xl">
+      
+      <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Implementation of conservation measures:</h5>
+          
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">To effectively protect whales, the implementation of conservation measures is required, such as the creation of marine protected areas, regulation of the fishing industry, and control of marine pollution. Fundraising plays a crucial role in supporting the implementation and enforcement of these measures, thereby ensuring a safe and healthy environment for whales.</p>
+      </div>   
+          <img class="object-cover w-full rounded-s-lg h-96 md:h-auto md:w-96 md:rounded-none md:rounded-s-lg" src="/image/ballena2.jpeg" alt=""/>
+    </a>
+    <br/>
+    <a href="#" class="ml-4 mr-4 bg-[radial-gradient(ellipse_at_right,_var(--tw-gradient-stops))] from-sky-400 to-indigo-700 p-10 md:space-y-0 md:space-x-8 md:flex md:items-center rounded-xl">
+      <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-96 md:rounded-none md:rounded-l-lg" src="/image/ballena3.jpg" alt=""/>
+      <div class="flex flex-col justify-between p-4 leading-normal">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Support for local communities:</h5>
+          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Many coastal communities in Mexico depend economically on whale-related tourism. The funds raised are used to support these communities by providing sustainable income-generating alternatives, reducing the pressure on natural resources, and helping foster a balanced relationship between the communities and the whales.</p>
+      </div>
+    </a>
+    <br/>
   <footer class="bg-white shadow dark:bg-gray-950 ">
     <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div class="sm:flex sm:items-center sm:justify-between">
-            <a href="https://flowbite.com/" class="flex items-center mb-4 sm:mb-0">
+            <a class="flex items-center mb-4 sm:mb-0">
             <Image src={require('../../public/logo.jpg')} className="h-8 w-8 mr-3 rounded-xl" alt="Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Whale Point</span>
             </a>
