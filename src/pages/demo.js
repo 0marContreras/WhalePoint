@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar'
 import Modal from '@/components/Modal'
 import { useState, useEffect } from 'react'
+import Image from 'next/image'
  
 export default function MyComponent() {
   const [mod, setMod] = useState(false)
