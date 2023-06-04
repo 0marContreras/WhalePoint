@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
-import { Parallax, ParallaxLayer } from '@react-spring/parallax'
 import toast, {Toaster} from "react-hot-toast"
 import { useState, useEffect } from 'react'
 import { useRouter } from 'next/router'

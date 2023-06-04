@@ -1,7 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@layer base {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
 body {
+<<<<<<< HEAD
     background-color: #76A9FA; /* Cambia el color de fondo aquí */
 }
+=======
+  background-color: #A4CAFE; /* Cambia el color de fondo aquí */
+}
+>>>>>>> 0d8fa1ab7ba8ceb77a4054148c1231c2e02b1885
